@@ -1,0 +1,62 @@
+.header{
+  color: rgb(56, 54, 54);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.126);
+  padding-bottom: 0.6rem;
+  font-size: large;
+}
+
+.header span > h2{
+  margin: 0;
+}
+
+.amount{
+  margin: 1rem 0rem;
+}
+
+.amount input{
+  width: 98%;
+  border-radius: 5px;
+  border: black 2px solid;
+  background-color: white;
+  margin: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.amount button{
+  width: 98%;
+  background-color: rgb(56, 174, 105);
+  margin: 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+}
+
+.amount button:disabled{
+  background-color: gray;
+}
+
+.modal{
+  position: fixed;
+  bottom: 2vh;
+  left: 0;
+  z-index: 30;
+}
+
+.p{
+  padding: 0.5rem;
+  color: grey;
+  font-size: small;
+  text-decoration: underline;
+  justify-content: center;
+  text-align: center;
+}
+
+.p:hover{
+  cursor: pointer;
+}

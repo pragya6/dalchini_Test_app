@@ -1,0 +1,48 @@
+.header, .container{
+  margin: 0.5rem;
+}
+
+.section{
+  width: 100%;
+  height: auto;
+  margin: 0.2rem;
+  padding: 1rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+}
+
+.cartdetails, .pickup{
+  margin: 2rem 0rem;
+}
+
+.cartStyle{
+  padding: 0.1rem;
+}
+
+.heading{
+  text-align: left;
+  text-transform: capitalize;
+  color: gray;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+  border-bottom: gray solid 1px;
+}
+
+.pees{
+  margin: 0.5rem 0rem;
+}
+
+.pees > p{
+  color: black;
+  font-size: normal;
+  padding: 0.2rem 0rem;
+}
+
+.pees :nth-child(3){
+  font-size: small;
+}

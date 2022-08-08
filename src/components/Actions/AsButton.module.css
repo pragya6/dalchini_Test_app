@@ -1,0 +1,19 @@
+.asbutton{
+  width: 4.5rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid rgb(56, 174, 105);
+  border-radius: 4px;
+  color: rgb(56, 174, 105);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.asbutton .calc{
+  color: black;
+  font-size: medium;
+  border: none;
+  background-color: white;
+}
